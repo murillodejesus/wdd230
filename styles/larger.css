@@ -1,0 +1,51 @@
+@media (min-width: 1000px){
+    /* Base Styles */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+main {
+    max-width: 900px;
+    margin: 2em auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+main p {
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    position: relative;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Flex for Navigation */
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+}
